@@ -10,11 +10,11 @@ Joker helps people administrate their groups, and includes many other useful too
 
 Joker was born as an [otouto](https://otou.to) [v3.1](https://github.com/topkecleon/otouto/tree/26c1299374af130bbf8457af904cb4ea450caa51) ([`@mokubot`](https://telegram.me/mokubot)), but it has since been turned into an administration bot.
 
-#### Group Butler on Telegram:
+#### joker on Telegram:
 
-- [`@joker2.0bot](https://telegram.me/GroupButler_Bot)
+- [`@joker2.0bot](https://telegram.me/joker2.0bot)
 	- **_branch_**: `master`
-	- **_channel_**: [`@GroupButler_ch`](https://telegram.me/groupbutler_ch).
+	- **_channel_**: [`@jokerassociation_ch`](https://telegram.me/jokerassociation_ch).
 
 - [`@GBReborn_bot`](https://telegram.me/GBReborn_bot)
 	- **_branch_**: `develop`
@@ -39,8 +39,7 @@ Joker was born as an [otouto](https://otou.to) [v3.1](https://github.com/topkecl
 Your `.env` file should now look somewhat like this:
 
 ```
-TG_TOKEN= 1957509841:AAH8sRYhUHYNI0L8pjpWGTXrYYnOUSvK1e4PERADMINS=[12345678]
-LOG_CHAT=12345678
+TG_TOKEN= 1957509841:AAH8sRYhUHYNI0L8pjpWGTXrYYnOUSvK1e4OG_CHAT=12345678
 LOG_ADMIN=12345678
 ```
 
@@ -193,21 +192,4 @@ make pot
 * * *
 
 ## Credits
-
-[Topkecleon](https://github.com/topkecleon), for the original [otouto](https://github.com/topkecleon/otouto)
-
-[Iman Daneshi](https://github.com/imandaneshi) and [Tiago Danin](https://github.com/TiagoDanin), for [Jack-telegram-bot](https://github.com/Imandaneshi/jack-telegram-bot)
-
-[Cosmonawt](https://github.com/cosmonawt), for his [Lua library](https://github.com/cosmonawt/lua-telegram-bot) for the Bot API
-
-[Yago Pérez](https://github.com/yagop) for his [telegram-bot](https://github.com/yagop/telegram-bot)
-
-The [Werewolf](https://github.com/parabola949/Werewolf) guys, for aiding the spread of the bot
-
-Lucas Montuano, for helping me a lot in the debugging of the bot
-
-All the Admins of our [discussion groups](https://telegram.me/gbgroups) about Group Butler
-
-All the people who reported bugs and suggested new stuff
-
-Le Laide
+All credit s tob @frank_boy_op
