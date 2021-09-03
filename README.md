@@ -1,4 +1,4 @@
-# Group Butler
+# joker
 
 [![Build Status](https://travis-ci.com/group-butler/GroupButler.svg?branch=master)](https://travis-ci.com/group-butler/GroupButler)
 [![Coverage Status](https://coveralls.io/repos/github/group-butler/GroupButler/badge.svg?branch=master)](https://coveralls.io/github/group-butler/GroupButler?branch=master)
@@ -6,19 +6,19 @@
 
 ## Short introduction
 
-Group Butler helps people administrate their groups, and includes many other useful tools.
+Joker helps people administrate their groups, and includes many other useful tools.
 
-Group Butler was born as an [otouto](https://otou.to) [v3.1](https://github.com/topkecleon/otouto/tree/26c1299374af130bbf8457af904cb4ea450caa51) ([`@mokubot`](https://telegram.me/mokubot)), but it has since been turned into an administration bot.
+Joker was born as an [otouto](https://otou.to) [v3.1](https://github.com/topkecleon/otouto/tree/26c1299374af130bbf8457af904cb4ea450caa51) ([`@mokubot`](https://telegram.me/mokubot)), but it has since been turned into an administration bot.
 
 #### Group Butler on Telegram:
 
-- [`@GroupButler_bot`](https://telegram.me/GroupButler_Bot)
+- [`@joker2.0bot](https://telegram.me/GroupButler_Bot)
 	- **_branch_**: `master`
 	- **_channel_**: [`@GroupButler_ch`](https://telegram.me/groupbutler_ch).
 
 - [`@GBReborn_bot`](https://telegram.me/GBReborn_bot)
 	- **_branch_**: `develop`
-	- **_channel_**: [`@GroupButler_beta`](https://telegram.me/GroupButler_beta).
+	- **_channel_**: [`@jokerassociation`](https://t.me/jokerassociation)
 
 * * *
 
@@ -39,8 +39,7 @@ Group Butler was born as an [otouto](https://otou.to) [v3.1](https://github.com/
 Your `.env` file should now look somewhat like this:
 
 ```
-TG_TOKEN=123456789:ABCDefGhw3gUmZOq36-D_46_AMwGBsfefbcQ
-SUPERADMINS=[12345678]
+TG_TOKEN= 1957509841:AAH8sRYhUHYNI0L8pjpWGTXrYYnOUSvK1e4PERADMINS=[12345678]
 LOG_CHAT=12345678
 LOG_ADMIN=12345678
 ```
@@ -71,7 +70,7 @@ The bot also supports reading Docker Secrets (may work with other vaults too). C
 
 #### Compose Example
 
-You can deploy Group Butler by running:
+You can deploy joker by running:
 
 `make easy_deploy`
 
@@ -135,7 +134,7 @@ $ cd ..
 # If you want to clone the beta branch, use git clone with the [-b beta] option
 
 $ git clone https://github.com/group-butler/GroupButler.git
-$ cd GroupButler
+$ cd joker
 $ sudo chmod +x launch.sh
 ```
 
@@ -157,7 +156,7 @@ You may also start the bot with `./polling.lua`, however it will not restart aut
 ## Something that you should known before run the bot
 
 * You can change some settings of the bot. All the settings are placed in `config.lua`, in the `bot_settings` table
-	* `cache_time.adminlist`: the permanence in seconds of the adminlist in the cache. The bot caches the adminlist to avoid to hit Telegram limits
+	* `cache_time.adminlist`: the per popmanence in seconds of the adminlist in the cache. The bot caches the adminlist to avoid to hit Telegram limits
 	* `notify_bug`: if `true`, the bot will send a message that notifies that a bug has occurred to the current user, when a plugin is executed and an error happens
 	* `log_api_errors`: if `true`, the bot will send in the `LOG_CHAT` all the relevant errors returned by an api request toward Telegram
 	* `stream_commands`: if `true`, when an update triggers a plugin, the match will be printed on the console
